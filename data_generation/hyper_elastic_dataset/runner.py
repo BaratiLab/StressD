@@ -10,25 +10,23 @@ from itertools import product
 from tqdm import tqdm
 from multiprocessing import Pool
 
-# c_x = np.linspace(0.1, 0.5, 3)
-# c_y = np.linspace(0.1, 0.5, 3)
 
 c_x = np.linspace(0.2, 0.5, 5)
 c_y = np.linspace(0.2, 0.5, 5)
 
 
 radius_l = np.linspace(0.1, 0.5, 10)
-# angle_l = [0,45,90,135,180,225,270,315]
+
 angle_l = np.linspace(0, 180, 5)
 print(angle_l)
 B= [0]
-# G= [100,200,300,400,500]
+
 G=np.linspace(100,400,10)
 print(G)
-# B=np.linspace(-3,0,5)
 
-# n_list = [3,4,5,6,7]
-n_list=[8]
+
+n_list = [3,4,5,6,7,8]
+
 
 combinations = list(product(c_x, c_y, radius_l, angle_l, n_list,B,G))
 print("Total combinations: ", len(combinations))
