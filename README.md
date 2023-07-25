@@ -3,5 +3,5 @@
 ## Updating regularly
 
 
-![Use Case](./assets/meme_abs.png)
+![Use Case](./assets/memes2.png)
 
