@@ -1,6 +1,6 @@
 # StressD
-
-## Updating regularly
+Code for [StressD](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4478596) paper.
+## Updating regularly 
 
 ## What is StressD?
 
